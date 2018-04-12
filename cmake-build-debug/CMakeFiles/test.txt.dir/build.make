@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hyeonggun/Desktop/Practice
+CMAKE_SOURCE_DIR = /Users/hyeonggun/Desktop/Coding_ProblemSolving
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hyeonggun/Desktop/Practice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hyeonggun/Desktop/Coding_ProblemSolving/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.txt.dir/depend.make
@@ -66,6 +66,6 @@ CMakeFiles/test.txt.dir/clean:
 .PHONY : CMakeFiles/test.txt.dir/clean
 
 CMakeFiles/test.txt.dir/depend:
-	cd /Users/hyeonggun/Desktop/Practice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hyeonggun/Desktop/Practice /Users/hyeonggun/Desktop/Practice /Users/hyeonggun/Desktop/Practice/cmake-build-debug /Users/hyeonggun/Desktop/Practice/cmake-build-debug /Users/hyeonggun/Desktop/Practice/cmake-build-debug/CMakeFiles/test.txt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/hyeonggun/Desktop/Coding_ProblemSolving/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hyeonggun/Desktop/Coding_ProblemSolving /Users/hyeonggun/Desktop/Coding_ProblemSolving /Users/hyeonggun/Desktop/Coding_ProblemSolving/cmake-build-debug /Users/hyeonggun/Desktop/Coding_ProblemSolving/cmake-build-debug /Users/hyeonggun/Desktop/Coding_ProblemSolving/cmake-build-debug/CMakeFiles/test.txt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.txt.dir/depend
 
