@@ -1,0 +1,7 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/hyeonggun/Desktop/Practice
+You have called ADD_LIBRARY for library test.txt without any source files. This typically indicates a problem with your CMakeLists.txt file
+-- Configuring done
+CMake Error: Cannot determine link language for target "test.txt".
+CMake Error: CMake can not determine linker language for target: test.txt
+-- Generating done
+-- Build files have been written to: /Users/hyeonggun/Desktop/Practice/cmake-build-debug
