@@ -27,7 +27,7 @@ bool isUniqueDesert(vector<int>& desert_list, int value) {
     return true;
 }
 
-void findDesert(vector<int>& desert_list, int row, int col, int dir, bool isStart) {
+void findDesert(vector<int>& desert_list, int row, int col, int dir) {
 
     for (int i = dir; i < 4; i++) {
         if (i != ((dir + 2) % 4)) {
@@ -42,7 +42,7 @@ void findDesert(vector<int>& desert_list, int row, int col, int dir, bool isStar
             if (isInside(nr, nc) && !visited[nr][nc] && isUniqueDesert(desert_list, map[nr][nc])) {
                 visited[nr][nc] = 1;
                 desert_list.push_back(map[nr][nc]);
-                findDesert(desert_list, nr, nc, i, false);
+                findDesert(desert_list, nr, nc, i);
                 visited[nr][nc] = 0;
                 desert_list.pop_back();
             }
@@ -57,7 +57,7 @@ void findMaxDesert() {
             start_row = i, start_col = j;
             visited[i][j] = 1;
             desert_list.push_back(map[i][j]);
-            findDesert(desert_list, i, j, 0, true);
+            findDesert(desert_list, i, j, 0);
             desert_list.pop_back();
             visited[i][j] = 0;
         }
