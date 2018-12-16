@@ -1,0 +1,14 @@
+# Find a Weather Id with high temperature compared to its previous date
+
+SELECT t1.Id
+FROM Weather t1 
+INNER JOIN Weather t2
+ON TO_DAY(t1.RecordDate) = TO_DAY(t2.RecordDate) + 1
+WHERE t1.temperature > t2.temperature;
+
+
+SELECT t1.Id
+FROM Weather t1 
+JOIN Weather t2 
+ON DATEDIFF(t1.RecordDate, t2.RecordDate) = 1
+AND t1.temperature > t2.temperature;
