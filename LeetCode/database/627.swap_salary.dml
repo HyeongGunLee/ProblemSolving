@@ -1,0 +1,15 @@
+CREATE TABLE Salary (id INTEGER, name VARCHAR(60), sex CHAR(2), salary INTEGER);
+
+INSERT INTO Salary VALUES (1, 'A', 'm', 2500);
+INSERT INTO Salary VALUES (2, 'B', 'f', 1500);
+INSERT INTO Salary VALUES (3, 'C', 'm', 5500);
+INSERT INTO Salary VALUES (4, 'D', 'f', 500);
+
+UPDATE Salary
+SET
+    sex = CASE sex
+        WHEN 'm' THEN 'f'
+        ELSE 'm'
+
+    END;
+
