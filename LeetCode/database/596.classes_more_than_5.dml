@@ -1,0 +1,27 @@
+
+CREATE TABLE courses (student CHAR(2), class VARCHAR(50));
+
+INSERT INTO courses VALUES ('A', 'Math');
+INSERT INTO courses VALUES ('B', 'English');
+INSERT INTO courses VALUES ('C', 'Math');
+INSERT INTO courses VALUES ('D', 'Biology');
+INSERT INTO courses VALUES ('E', 'Math');
+INSERT INTO courses VALUES ('F', 'Computer');
+INSERT INTO courses VALUES ('G', 'Math');
+INSERT INTO courses VALUES ('H', 'Math');
+INSERT INTO courses VALUES ('I', 'Math');
+
+SELECT class 
+FROM courses 
+GROUP BY class 
+HAVING COUNT(DISTINCT student) >= 5;
+
+SELECT class 
+FROM (
+      SELECT class, COUNT(DISTINCT student) as num
+      FROM courses 
+      GROUP BY class 
+    ) AS temp_table
+WHERE num >= 5;
+
+
