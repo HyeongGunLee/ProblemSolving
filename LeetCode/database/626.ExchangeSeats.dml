@@ -1,0 +1,35 @@
+CREATE TABLE seat (
+   id INTEGER NOT NULL, 
+   student VARCHAR(60) NOT NULL
+   );
+
+INSERT INTO seat VALUES (1, 'Abbot');
+INSERT INTO seat VALUES (2, 'Doris');
+INSERT INTO seat VALUES (3, 'Emerson');
+INSERT INTO seat VALUES (4, 'Green');
+INSERT INTO seat VALUES (5, 'Jeames');
+
+
+# change seats for the adjacent students
+
+SELECT t1.id - 1 as id, t1.student 
+FROM seats as t1
+WHERE MOD(id, 2) = 0 
+UNION
+SELECT t2.id + 1 as id, t2.student 
+FROM seats as t2 
+WHERE MOD(id, 2) = 1 AND id != (SELECT MAX(id) FROM seats)
+UNION
+SELECT t3.id, student 
+FROM seats as t3 
+WHERE MOD(id, 2) = 1 AND id = (SELECT MAX(id) FROM seats)
+ORDER BY id;
+
+SELECT (
+    CASE
+      WHEN MOD(id, 2) = 1 AND id = (SELECT MAX(id) FROM seats) then id 
+      WHEN MOD(id, 2) = 1 then id - 1 
+      ELSE id + 1 END
+    ) AS id, student 
+FROM seats 
+ORDER BY id;
