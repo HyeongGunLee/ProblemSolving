@@ -1,12 +1,12 @@
 ## Table of Contents
 
 ### Languages
-- [ ] C/C++
+- [X] C/C++
 - [ ] Java
-- [ ] Python
+- [X] Python
 
 ### Data Structures
-- [ ] Arrays
+- [X] Arrays
 - [ ] String
 - [ ] Linked Lists
   - [ ] Singlely
