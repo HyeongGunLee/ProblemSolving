@@ -53,7 +53,7 @@
 - [ ] mergesort
 - [ ] quicksort
 - [ ] Radixsort
-- [ ] topological sort
+
 
 ### Greedy
 - [ ] Knapsack Problem
