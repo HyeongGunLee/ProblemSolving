@@ -7,9 +7,9 @@
 
 ### Data Structures
 - [X] Arrays
-- [ ] String
-- [ ] Linked Lists
-  - [ ] Singlely
+- [X] String
+- [X] Linked Lists
+  - [X] Singlely
   - [ ] Doubly
   - [ ] Circular
 - [ ] Stack
