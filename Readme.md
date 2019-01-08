@@ -51,7 +51,7 @@
 - [ ] insertion
 - [ ] heapsort
 - [ ] mergesort
-- [ ] quicksort
+- [X] quicksort
 - [ ] Radixsort
 
 
