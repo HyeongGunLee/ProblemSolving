@@ -10,7 +10,7 @@
 - [X] String
 - [X] Linked Lists
   - [X] Singlely
-  - [ ] Doubly
+  - [X] Doubly
   - [ ] Circular
 - [ ] Stack
 - [ ] Queue

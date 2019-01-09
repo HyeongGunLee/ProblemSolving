@@ -244,7 +244,7 @@ namespace hg {
                 delete current;
                 break;
             }
-            
+
             prev = current;
             current = current->GetNext();
         }
