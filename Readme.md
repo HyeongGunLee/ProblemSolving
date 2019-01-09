@@ -52,6 +52,7 @@
 - [ ] heapsort
 - [ ] mergesort
 - [X] quicksort
+- [X] counting sort
 - [ ] Radixsort
 
 
