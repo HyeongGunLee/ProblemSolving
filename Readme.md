@@ -35,6 +35,7 @@
   - [ ] MST
   - [ ] BackTracking
   - [ ] Shortest Paths
+    - [X] Dijkstra's Shortest Path
   - [ ] Connectivity
   - [ ] Maximum Flow
  - [ ] Bitwise
@@ -58,7 +59,7 @@
 
 ### Greedy
 - [ ] Knapsack Problem
-- [ ] Dijkstra's Shortest Path
+- [X] Dijkstra's Shortest Path
 - [ ] Kruskal's MST
 - [ ] Prim's MST
 
