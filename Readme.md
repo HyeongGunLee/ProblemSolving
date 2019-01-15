@@ -12,7 +12,7 @@
   - [X] Singlely
   - [X] Doubly
   - [X] Circular
-- [ ] Stack
+- [X] Stack
 - [ ] Queue
   - [ ] Circular Queue
   - [ ] Deque
