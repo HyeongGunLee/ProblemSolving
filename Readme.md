@@ -11,7 +11,7 @@
 - [X] Linked Lists
   - [X] Singlely
   - [X] Doubly
-  - [ ] Circular
+  - [X] Circular
 - [ ] Stack
 - [ ] Queue
   - [ ] Circular Queue
