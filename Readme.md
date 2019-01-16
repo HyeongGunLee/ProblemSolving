@@ -12,9 +12,9 @@
   - [X] Singlely
   - [X] Doubly
   - [X] Circular
-- [ ] Stack
+- [X] Stack
 - [ ] Queue
-  - [ ] Circular Queue
+  - [X] Circular Queue
   - [ ] Deque
   - [ ] Priority Queue
 - [ ] Hashing
