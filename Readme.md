@@ -15,7 +15,7 @@
 - [X] Stack
 - [ ] Queue
   - [X] Circular Queue
-  - [ ] Deque
+  - [X] Deque
   - [ ] Priority Queue
 - [ ] Hashing
   - [ ] Collision Handling
@@ -51,7 +51,7 @@
 - [ ] selection
 - [ ] insertion
 - [ ] heapsort
-- [ ] mergesort
+- [X] mergesort
 - [X] quicksort
 - [X] counting sort
 - [ ] Radixsort
