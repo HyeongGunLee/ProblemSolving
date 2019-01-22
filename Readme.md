@@ -20,16 +20,16 @@
 - [ ] Hashing
   - [ ] Collision Handling
 - [ ] Tree
-  - [ ] Binary Search
+  - [X] Binary Search
   - [ ] Heap
-  - [ ] BST
+  - [X] BST
   - [ ] Balanced Search Tree
     - [ ] AVL
     - [ ] Red Black
-  - [ ] Traversals: Pre, In, Post, Level, BFS, DFS
+  - [X] Traversals: Pre, In, Post, Level, BFS, DFS
 - [ ] Graphs
   - [ ] directed, undirected, adjacency matrix, list
-  - [ ] traversals: BFS, DFS
+  - [X] traversals: BFS, DFS
   - [ ] Cycle
   - [ ] Topological Sorting
   - [ ] MST
@@ -67,9 +67,9 @@
 - TBD
 
 ### Divide and Conquer
-- [ ] Binary Search
-- [ ] Merge Sort
-- [ ] Quick Sort
+- [X] Binary Search
+- [X] Merge Sort
+- [X] Quick Sort
 
 ### Backtracking
 - [ ] N Queen Problem
