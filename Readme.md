@@ -11,25 +11,25 @@
 - [X] Linked Lists
   - [X] Singlely
   - [X] Doubly
-  - [ ] Circular
-- [ ] Stack
+  - [X] Circular
+- [X] Stack
 - [ ] Queue
-  - [ ] Circular Queue
-  - [ ] Deque
+  - [X] Circular Queue
+  - [X] Deque
   - [ ] Priority Queue
 - [ ] Hashing
   - [ ] Collision Handling
 - [ ] Tree
-  - [ ] Binary Search
+  - [X] Binary Search
   - [ ] Heap
-  - [ ] BST
+  - [X] BST
   - [ ] Balanced Search Tree
     - [ ] AVL
     - [ ] Red Black
-  - [ ] Traversals: Pre, In, Post, Level, BFS, DFS
+  - [X] Traversals: Pre, In, Post, Level, BFS, DFS
 - [ ] Graphs
   - [ ] directed, undirected, adjacency matrix, list
-  - [ ] traversals: BFS, DFS
+  - [X] traversals: BFS, DFS
   - [ ] Cycle
   - [ ] Topological Sorting
   - [ ] MST
@@ -51,7 +51,7 @@
 - [ ] selection
 - [ ] insertion
 - [ ] heapsort
-- [ ] mergesort
+- [X] mergesort
 - [X] quicksort
 - [X] counting sort
 - [ ] Radixsort
@@ -67,9 +67,9 @@
 - TBD
 
 ### Divide and Conquer
-- [ ] Binary Search
-- [ ] Merge Sort
-- [ ] Quick Sort
+- [X] Binary Search
+- [X] Merge Sort
+- [X] Quick Sort
 
 ### Backtracking
 - [ ] N Queen Problem
