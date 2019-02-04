@@ -18,6 +18,7 @@
   - [X] Deque
   - [ ] Priority Queue
 - [ ] Hashing
+  - [X] HashTable
   - [ ] Collision Handling
 - [ ] Tree
   - [X] Binary Search
@@ -58,7 +59,7 @@
 
 
 ### Greedy
-- [ ] Knapsack Problem
+- [X] Knapsack Problem
 - [X] Dijkstra's Shortest Path
 - [ ] Kruskal's MST
 - [ ] Prim's MST
