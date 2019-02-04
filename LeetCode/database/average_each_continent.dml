@@ -1,0 +1,3 @@
+SELECT COUNTRY.continent, round(avg(CITY.population)-0.5) FROM CITY 
+INNER JOIN COUNTRY ON COUNTRY.code = CITY.Countrycode
+GROUP BY COUNTRY.Continent;

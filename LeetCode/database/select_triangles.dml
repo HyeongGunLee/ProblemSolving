@@ -1,0 +1,6 @@
+
+SELECT (CASE
+        WHEN not (a + b > c and b + c > a and a + c > b) then "Not a Triangle"
+        WHEN a = b and b = c then "Equilateral"
+        when a = b or b = c or c = a then "Isosceles"
+        else "Scalene" end) from Triangles;
