@@ -1,4 +1,4 @@
-#:wqinclude <iostream>
+#include <iostream>
 #include <queue>
 #include <vector>
 using namespace std;
@@ -104,12 +104,6 @@ iPair getNearestFish(iPair temp, queue<iPair>& q) {
       }
    }
 
-   /*
-   for (int i = 0; i < rowList.size(); i++) {
-      cout << "rowList " << i << ": " << rowList[i].r << rowList[i].c << rowList[i].d << endl;
-   }
-   */
-
    int fishIdx = 0;
    if (rowList.size() == 1) {
       return rowList[0];
@@ -123,7 +117,6 @@ iPair getNearestFish(iPair temp, queue<iPair>& q) {
          }
       }
    }
-   //cout << "rowList[fishIdx] " << fishIdx << ": " << rowList[fishIdx].r << rowList[fishIdx].c << rowList[fishIdx].d << endl;
    return rowList[fishIdx];
 }
 
@@ -142,9 +135,6 @@ int catchFish() {
          // add a logic to check highest && leftmost
          temp = getNearestFish(temp, q);
          eatFish(temp); //set shartPos (9 & 0 )
-         //cout << "#######Eat Fish - (row:" << temp.r << ", col:" << temp.c << ", dis:" << temp.d << ")" << endl;
-         //cout << "#######Shark Age: " << babyShark.age << "  Count: " << babyShark.fish_cnt << endl;
-         //printBoard();
          initVisited();
          while (!q.empty()) {
             q.pop();
